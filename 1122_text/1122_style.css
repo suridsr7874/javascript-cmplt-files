@@ -1,0 +1,58 @@
+
+body{
+    background-image: url("../../img/black.jpg");
+    background-size: 100%;
+}
+section {
+    padding: 0 0 10px;
+    text-align: center;
+}
+header,footer{
+    background-image: url("../../img/bg6.jpg");
+    background-size: 100%;
+    text-align: center;
+    margin-top: 0px;
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
+    font-size: 20px;
+    padding: 0 0 10px;
+    color: whitesmoke;
+}
+input[type='text']{
+    width: 500px;
+    font-size: 45px;
+    height: 50px;
+    padding: 0 0 10px;
+    text-align: center;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 20px;
+    border: 2px solid blueviolet;
+   outline: none;
+    color: white;
+    font-style: italic;
+    box-shadow: 0 0 10px orangered;
+    margin-bottom: 30px;
+
+}
+::placeholder{
+    color: #4fc3f7;
+    font-size: 45px;
+    padding: 0 0 10px;
+    text-align: center;
+}
+#msg{
+    width: 500px;
+    font-size: 45px;
+    height: 50px;
+
+    margin: auto;
+    padding: 0 0 10px;
+    text-align: center;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    font-style: italic;
+    box-shadow: 0 0 10px orangered;
+
+}
